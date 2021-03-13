@@ -1,0 +1,65 @@
+/*
+made the background of the webpage solid black
+*/
+body {
+    background-color: black;
+}
+
+header {
+    height: 600px
+}
+
+h1, h2 {
+    font-family: "Courier New";
+    text-align: center;
+}
+
+h1 {
+    color: blue
+}
+
+h2 {
+    color: aquamarine;
+}
+
+h3, p, ol, ul {
+    font-family: "Times New Roman";
+    color: darkcyan;
+    text-align: center;
+    font-size: 15pt
+}
+
+/*
+created a class that centers the text
+*/
+.center {
+    text-align: center;
+}
+
+
+/*
+created space around the text with padding and margin
+*/
+main, footer {
+    padding: 50px  300px;
+    margin: 100px;
+}
+
+/* 
+custom colors for the links
+*/
+a:link {
+    color: white;
+}
+
+a:visited {
+    color: firebrick;
+}
+
+a:hover {
+    color: darksalmon;
+}
+
+a:active {
+    color:cornflowerblue;
+}
